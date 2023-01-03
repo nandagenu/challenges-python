@@ -1,3 +1,3 @@
-# Crie um programa que escreva "Olá, Mundo!" na tela.
+# Crie um programa que escreva "Hello, World!" na tela.
 
-print("Olá, Mundo!")
+print("Hello, World!")
