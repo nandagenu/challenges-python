@@ -6,6 +6,10 @@ n_random = choice([0, 1, 2, 3, 4, 5])
 
 if n_random == n:
     print(f"Parabéns, o número escolhido foi {n}! Você acertou!")
+elif n > 5:
+    print("Você chutou alto demais, tente novamente.")
+elif n < 0:
+    print("Você chutou baixo demais, tente novamente.")
 else:
     print(f"O número escolhido pelo computador foi {n_random}, e o seu foi {n}!")
     print("Não foi dessa vez. Tente novamente!")
