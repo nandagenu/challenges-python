@@ -2,7 +2,7 @@
 
 sexo = 'a'
 while sexo not in 'MF':
-  sexo = str(input("Digite o sexo da pessoa, apenas entre 'M' ou 'F': ")).upper()
+  sexo = str(input("Digite o sexo da pessoa, apenas entre 'M' ou 'F': ")).upper().strip()
   if sexo not in 'MF':
     print("Resposta inválida. Tente novamente.\n")
   else:
@@ -13,7 +13,7 @@ while sexo not in 'MF':
 '''
 sexo = None
 while sexo != 'M' and sexo != 'F':
-  sexo = str(input("Digite o sexo da pessoa, apenas entre 'M' ou 'F': ")).upper()
+  sexo = str(input("Digite o sexo da pessoa, apenas entre 'M' ou 'F': ")).upper().strip()
   if sexo != 'M' and sexo != 'F':
     print("Resposta inválida. Tente novamente.\n")
   else:
