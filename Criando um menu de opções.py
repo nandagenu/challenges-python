@@ -11,20 +11,16 @@ while opção < 1 or opção > 5:
     print("\nOpção inválida, tente novamente.")
   if opção == 1:
     print(f"\nA soma entre {num1} e {num2} é igual a {num1+num2}")
-  else:
-    if opção == 2:
+  elif opção == 2:
       print(f"\nA multiplicação entre {num1} e {num2} é igual a {num1*num2}")
-    else:
-      if opção == 3:
-        if num1 > num2:
+  elif opção == 3:
+      if num1 > num2:
           print(f"O maior número entre {num1} e {num2} é {num1}.")
-        else:
-          print(f"O maior número entre {num1} e {num2} é {num2}.")
       else:
-        if opção == 4:
+          print(f"O maior número entre {num1} e {num2} é {num2}.")
+  elif opção == 4:
           num1 = int(input("\nDigite o primeiro número inteiro: "))
           num2 = int(input("Digite o segundo número inteiro: "))
           opção = 0
-        else:
-          if opção == 5:
+  elif opção == 5:
             print("\nVocê saiu do programa.")
